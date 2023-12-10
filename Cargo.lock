@@ -5,3 +5,11 @@ version = 3
 [[package]]
 name = "helloworld"
 version = "0.1.0"
+dependencies = [
+ "say",
+]
+
+[[package]]
+name = "say"
+version = "0.1.0"
+source = "git+https://github.com/rustfundev/say#5c4835c6484f769fed26de8eba2f857b69000b0c"

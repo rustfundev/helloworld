@@ -1,3 +1,5 @@
+use say::say;
+
 fn main() {
-    println!("Hello, world!");
+    say("Hello, world!");
 }
